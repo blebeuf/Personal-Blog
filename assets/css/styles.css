@@ -4,29 +4,10 @@ main {
     padding: 20px; 
 }
 
-
-form h2 {
-    margin-bottom: 10px; /* Adds some space below headings */
+#blogImage {
+    max-width: 100%; /* Ensures the image is not wider than the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Makes the image a block-level element to allow for alignment */
+    margin-right: auto; /* Aligns the image to the left by pushing the right margin to auto */
 }
 
-form input[type="text"],
-form textarea {
-    width: 100%; /* Makes input and textarea take the full container width */
-    padding: 10px; /* Adds some padding inside the input and textarea */
-    margin-bottom: 20px; /* Adds some space below each input/textarea */
-    border: 1px solid #ccc; /* Adds a border around the input and textarea */
-    border-radius: 5px; /* Rounds the corners of the input and textarea */
-}
-
-form button {
-    padding: 10px 20px; /* Adjusts padding inside the button */
-    border: none; /* Removes border */
-    background-color: #007bff; /* Sets background color */
-    color: white; /* Sets text color */
-    cursor: pointer; /* Changes cursor to pointer on hover */
-    border-radius: 5px; /* Rounds the button corners */
-}
-
-form button:hover {
-    background-color: #0056b3; /* Darkens the button on hover */
-}
