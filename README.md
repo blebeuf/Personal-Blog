@@ -45,4 +45,8 @@ N/A
 
 ## Tests
 
-Below are links to both of the pages in the project:
+Below is a link to the depolyed web application:
+
+https://blebeuf.github.io/Personal-Blog/
+
+
