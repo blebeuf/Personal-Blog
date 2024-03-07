@@ -6,10 +6,11 @@ const rootEl = $('#root');
 const blogSubmission = JSON.parse(localStorage.getItem('blogSubmission'));
 
 blogSubmission.forEach(blogSubmission => {
-    const blogCard = $('<li>')
+  // if it's wrapped in a single '', use "" to provide class or id **or vice versa**
+    const blogCard = $('<li class="blog-li">')
     const blogContent = `
     <h3>${blogSubmission.subject}</h3>
-    <p>${blogSubmission.content}</p>
+    <p>${blogSubmission.thoughts}</p>
     <p>Posted by ${blogSubmission.username}</p>`;
     
     blogCard.html(blogContent);
