@@ -19,8 +19,9 @@ N/A
 
 Below are screenshots for both the main page and the blog comment storing page.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Screenshot blog_main_page](https://github.com/blebeuf/Personal-Blog/assets/23405383/0699bcd8-53e2-4dd0-82f5-c7c6e999f16c)
 
+![Screenshot_blog_board](https://github.com/blebeuf/Personal-Blog/assets/23405383/feeaf937-e6de-4a77-b263-6ccb1784b405)
 
 ## Credits
 
@@ -44,4 +45,4 @@ N/A
 
 ## Tests
 
-Below are links to both of the pages in the project.
+Below are links to both of the pages in the project:
